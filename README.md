@@ -3,7 +3,7 @@
 ## Conexões
 
 - [x] Rota para criar uma nova conexão;
-- [ ] Rota para listar o total de conexões realizadas;
+- [x] Rota para listar o total de conexões realizadas;
 
 ## Aulas
 
