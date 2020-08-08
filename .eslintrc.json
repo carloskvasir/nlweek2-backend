@@ -11,6 +11,22 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "no-unused-vars": ["error", { "varsIgnorePattern": "Knex" }]
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "after-used",
+        "ignoreRestSiblings": true,
+        "varsIgnorePattern": "Re"
+      }
+    ],
+    "camelcase": [
+      "error",
+      {
+        "properties": "always",
+        "ignoreDestructuring": true,
+        "allow": ["week_day", "user_id", "class_id"]
+      }
+    ]
   }
 }
