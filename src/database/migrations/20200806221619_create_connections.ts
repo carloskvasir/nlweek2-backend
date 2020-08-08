@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import * as Knex from 'knex'
 
 export async function up (knex: Knex): Promise<void> {
@@ -12,7 +13,7 @@ export async function up (knex: Knex): Promise<void> {
       .onUpdate('CASCADE')
 
     table.timestamp('created_at')
-      .defaultTo('now()')
+      .defaultTo('CURRENT_TIMESTAMP')
       .notNullable()
   })
 }
