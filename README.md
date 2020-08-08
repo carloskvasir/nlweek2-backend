@@ -8,7 +8,7 @@
 ## Aulas
 
 - [x] Rota para criar uma aula;
-- [ ] Rota para listar aulas;
-   - [ ] Filtrar por matéria, dia da semana e horário;
+- [x] Rota para listar aulas;
+   - [x] Filtrar por matéria, dia da semana e horário;
 
 Feito por Carlos Lima (Kvasir)
